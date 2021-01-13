@@ -8,7 +8,6 @@ github：https://github.com/5iux/sou
 版权所有，请勿删除
 */
 
-
 /*@import url(//fonts.loli.net/earlyaccess/notosansscsliced.css);*/
 
 * {
@@ -28,8 +27,9 @@ body {
 }
 
 html {
-    font-family: 'Noto Sans SC Sliced', PingFangSC-Light, Microsoft YaHei UI, Microsoft YaHei, helvetica, sans-serif;
-    font-weight: 500;
+    font-family: "Noto Sans SC Sliced", PingFangSC-Light, Microsoft YaHei UI,
+        Microsoft YaHei, helvetica, sans-serif;
+    font-weight: 300;
     color: #000;
 }
 
@@ -117,28 +117,14 @@ a {
     border: 1px solid #ddd;
     border-radius: 25px;
     line-height: 100%;
+    text-indent: 20px;
     font-size: 18px;
-    text-indent: 50px;
-    transition: 0.3s all;
 }
-.con .sou form .lg {
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        left: 13px;
-        top: 10px;
-       /* background: url(icon/lg.svg) no-repeat center/cover;*/
-        border-radius: 50%;
-        overflow: hidden;
-        cursor: pointer;
-}
-
 
 .con .sou form .wd:focus {
     background: #fff;
-    box-shadow: 0 0px 15px 0 rgba(32, 33, 36, 0.2);
-    border-color: #fff
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: #fff;
 }
 
 .con .sou form button {
@@ -156,27 +142,51 @@ a {
     color: #777;
 }
 
-.con .sou #word{
-    width: calc(100% - 70px);
-    border: 15px solid #f1f1f1;
-    border-radius: 10px;
-    left:20px;
-    position: absolute;z-index: 500; top:65px;
-    background: #f1f1f1;
-    line-height: 30px; font-style: 16px;overflow: hidden;
-    display: none; 
+.con .sou ul {
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
-.con .sou #word .li{
+
+.con .sou ul li {
+    width: 120px;
+    margin: 0 10px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    background: #eee;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-indent: 30px;
     cursor: pointer;
-    color: #555;
+    position: relative;
+    border-radius: 20px;
 }
-.con .sou #word .li:hover{
-    color: #29f;
+
+.con .sou ul li:active {
+    background: #fff;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.con .sou ul li i {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0.7);
 }
 
 .foot {
     position: absolute;
     bottom: 10px;
+    z-index: 1000;
     text-align: center;
     width: 100%;
     color: #999;
@@ -226,7 +236,7 @@ a {
 }
 
 #menu i:before {
-    content: '';
+    content: "";
     width: 20px;
     height: 2px;
     top: -8px;
@@ -236,7 +246,7 @@ a {
 }
 
 #menu i:after {
-    content: '';
+    content: "";
     width: 20px;
     height: 2px;
     bottom: -8px;
@@ -249,7 +259,7 @@ a {
     right: 380px;
     background: #29f;
     border-radius: 25px;
-    box-shadow: 0 6px 8px rgba(36, 159, 253, .3);
+    box-shadow: 0 6px 8px rgba(36, 159, 253, 0.3);
 }
 
 #menu.on i {
@@ -321,11 +331,29 @@ a {
     font-size: 12px;
 }
 
+.list ul li a i {
+    margin-right: 5px;
+    margin-left: 15px;
+    transition: 0.2s all linear;
+}
+
+.list ul li a i.iconfont {
+    font-size: 14px;
+}
+
 .list ul li:hover a {
     color: #fff;
     background-color: #29f;
-    background-image: linear-gradient(135deg, rgba(35, 153, 255) 0%, rgba(84, 175, 253) 100%);
-    box-shadow: 0 3px 3px rgba(0, 40, 70, .3);
+    background-image: linear-gradient(
+        135deg,
+        rgba(35, 153, 255) 0%,
+        rgba(84, 175, 253) 100%
+    );
+    box-shadow: 0 3px 3px rgba(0, 40, 70, 0.3);
+}
+
+.list ul li:hover a i {
+    color: #fff !important;
 }
 
 .list ul li.title {
@@ -341,6 +369,11 @@ a {
     font-weight: bold;
 }
 
+.list ul li.title i {
+    color: #29f;
+    margin-right: 5px;
+    font-weight: normal;
+}
 
 .mywth {
     position: absolute;
@@ -351,72 +384,220 @@ a {
     line-height: 20px;
     cursor: pointer;
     z-index: 100000;
-    height: 22px;
 }
 
-svg.icon {
-    width: 14px;
-    height: 14px;
-    margin: 0 5px 0 8px;
-    vertical-align: -0.15em;
-    fill: currentColor;
+.mywth .wea {
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.mywth .wea_hover {
+    width: 400px;
+    padding: 25px 10px;
+    position: absolute;
+    z-index: 100000;
+    font-size: 12px;
+    line-height: 20px;
+    left: 0;
+    top: 30px;
+    box-shadow: 5px 5px 5px 0 rgba(33, 150, 243, 0.3);
+    border-radius: 15px;
+    /* background: #fff;
+    background: linear-gradient(45deg, #549aff,#602fff);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.mywth:hover .wea_hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wea_in {
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+}
+
+.wea_top span {
+    display: block;
+    float: left;
+    line-height: 20px;
+}
+
+.wea_top span.city {
+    width: 100%;
+    line-height: 26px;
+}
+
+.wea_top span.city b {
+    display: inline-block;
+    float: left;
+    background: #fd0;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 13px;
+    color: #06b;
+    margin-right: 5px;
+}
+
+.wea_top span.img {
+    width: 50px;
+    height: 120px;
+}
+
+.wea_top span.tem {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.wea_top span.tem b {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.wea_top span.air {
+    height: 40px;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.wea_top span.air_tips {
+    text-indent: 15px;
+}
+
+.wea_con {
+    margin: 20px 10px;
+    position: relative;
+    float: left;
+}
+
+.wea_con ul {
+    width: 100%;
+    margin-left: 1px;
+}
+
+.wea_con ul li {
+    float: left;
+    width: calc(25% - 12px);
+    font-size: 12px;
     overflow: hidden;
+    border: 1px solid #eee;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin: 0 -1px -1px 0;
 }
 
-.list ul li.title svg.icon {
-    width: 20px;
-    height: 20px;
+.wea_con ul li b {
+    color: #fd0;
+    font-size: 14px;
+}
+
+.wea_con ul li:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.wea_con ul li i {
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 16px;
+    margin: 5px 0;
+}
+
+.wea_foot ul {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.wea_foot ul li {
+    float: left;
+    width: 33.3%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wea_foot ul li img {
+    display: inline-block;
+    vertical-align: center;
+    height: 30px;
+    margin: 5px;
+}
+
+.wea_foot ul li b {
+    color: #0f0;
+    font-weight: normal;
+}
+
+.wea_foot ul li i {
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media (max-width: 640px) {
     .con {
         top: 0px;
     }
-
     .con .shlogo {
         width: 320px;
         height: 100px;
     }
-
     .con .sou form .wd:focus {
         background: #f1f1f1;
         box-shadow: none;
-        border-color: #ccc
+        border-color: #ccc;
     }
-
     .con .sou form button {
         border-radius: 25px;
     }
-    .con .sou #word{max-height: 150px;}
-
     #menu.on {
         right: 270px;
     }
-
     .list {
         width: 227px;
     }
-
     .list ul {
         width: 220px;
     }
-
     .con .sou ul li {
         width: 100px;
         font-size: 12px;
         text-indent: 30px;
     }
-
     .home,
     #menu {
         top: 5px;
     }
-
     .mywth {
         color: #777;
         left: 10px;
+        top: 20px;
     }
-
+    .mywth .wea_hover {
+        display: none;
+    }
     .mywth.hidden {
         display: none;
     }
@@ -427,11 +608,24 @@ svg.icon {
         margin: 0;
         top: 0px;
     }
-
+    .con .sou form .wd {
+        text-indent: 50px;
+    }
+    .con .sou form:after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background: url(icon/lg.svg) no-repeat center/cover;
+        border-radius: 50%;
+        overflow: hidden;
+    }
     .con .shlogo {
         display: none;
     }
-
     .home,
     #menu,
     .mywth,
@@ -440,32 +634,6 @@ svg.icon {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #162035;
-    }
-
-    .mywth {
-        color: #bbb;
-    }
-
-    .con .sou form .wd:focus {
-        background: #293550;
-        border: 1px solid #162035;
-    }
-
-    .con .sou form .wd {
-        border: 1px solid #293550;
-        color: #bbb;
-    }
-    .con .sou #word {
-        border: 15px solid #293550;
-        background: #293550;
-    }
-    .con .sou #word .click_work {
-        color: #89b;
-    }
-}
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
