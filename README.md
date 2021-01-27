@@ -10,7 +10,9 @@
 
 ###  示例效果
 
-![简单搜索微体积版](https://gitee.com/retrocode/picture_bed/raw/master/image/image-20210113200028717.png)
+![简单搜索微体积版](https://gitee.com/retrocode/picture_bed/raw/master/image/微信截图_20210128010149.png)
+![简单搜索微体积版](https://gitee.com/retrocode/picture_bed/raw/master/image/微信截图_20210128010135.png)
+![简单搜索微体积版](https://gitee.com/retrocode/picture_bed/raw/master/image/微信截图_20210128010203.png)
 
 > （图片效果，以实际页面为准） 
 
