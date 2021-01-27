@@ -3,7 +3,8 @@
     error_reporting(0);
     $t = htmlspecialchars($_POST["t"]);
     $q = htmlspecialchars($_POST["q"]);
-    if (!empty($q)) {
+    if ($q == "" || $q == null) {
+    } else {
         if ($t == "b") {
             echo'<script>window.open("//www.baidu.com/s?ie=utf-8&word='.$q.'","_blank");</script>';
         } elseif ($t == "g") {
@@ -12,7 +13,8 @@
             //默认百度
             echo'<script>window.open("//www.baidu.com/s?ie=utf-8&word='.$q.'","_blank");</script>';
         }
-    };
+    }
+    ;
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -57,7 +59,6 @@
     }
   </style>
 </head>
-
 <body class="skin-container" topmargin="0" oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onselect="document.getSelection().empty()" oncopy="document.getSelection().empty()" onbeforecopy="return false">
     <div id="menu"><i></i></div>
     <div class="list closed">
@@ -121,6 +122,20 @@
             </div>
         </div>
         <!--天气插件，基于www.tianqiapi.com 天气接口制作-->
+        <div class="time_text">
+            <div class="mywth_text"></div>
+            <div id="date">
+            <div class="parts" id="date_div"></div>
+                <div class="mask" id="year"><div class="p"></div></div>
+                <div class="mask" id="month"><div class="p"></div></div>
+            </div>
+            <div id="time">
+                <div class="parts" id="time_div"></div>
+                <div class="mask" id="d"><div class="p"></div></div>
+                <div class="mask" id="h"><div class="p"></div></div>
+                <div class="mask" id="m"><div class="p"></div></div>
+            </div>
+        </div>
     </div>
     <div id="content">
         <div class="con">
