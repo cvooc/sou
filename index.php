@@ -107,7 +107,7 @@ if ($q == "" || $q == null) {
             <!------>
             <li class="title"><i class="iconfont icon-shi-pin-xin-wen"></i> 视频媒体</li>
             <li><a rel="nofollow" href="//www.youtube.com/" target="_blank"><i class="iconfont icon-yout" style="color:#f03;"></i>Youtube</a></li>
-            <li><a rel="nofollow" href="//www.acfun.cn/index.html" target="_blank"><i class="iconfont icon-acfun" style="color:#f33;"></i>ACFUN</a></li>
+            <li><a rel="nofollow" href="//www.acfun.cn/" target="_blank"><i class="iconfont icon-acfun" style="color:#f33;"></i>ACFUN</a></li>
             <li><a rel="nofollow" href="//www.bilibili.com/" target="_blank"><i class="iconfont icon-CN_bilibili" style="color:#09e;"></i>哔哩哔哩</a></li>
             <li><a rel="nofollow" href="/movies/" target="_blank"><i class="iconfont icon-yunbo" style="color:#0bf;"></i>影视搜索</a></li>
             <li><a rel="nofollow" href="//music.yyv.me/" target="_blank"><i class="iconfont icon-wangyiyun" style="color:#f03;"></i>网易云音乐</a></li>
