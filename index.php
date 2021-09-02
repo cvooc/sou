@@ -122,7 +122,7 @@ if ($q == "" || $q == null) {
             <li class="title"><i class="iconfont icon-tool"></i> 工具</li>
             <li><a rel="nofollow" href="//cv.retrocode.io/" target="_blank"><i class="iconfont icon-zimu" style="color: #067;"></i>临时公告板</a></li>
             <li><a rel="nofollow" href="//fanyi.baidu.com/" target="_blank"><i class="iconfont icon-fanyi" style="color: #02f;"></i>百度翻译</a></li>
-            <li><a rel="nofollow" href="//pan.baidu.com" target="_blank"><i class="iconfont icon-baiduyun" style="color: #148bfe;"></i>百度网盘</a></li>
+            <li><a rel="nofollow" href="//pan.baidu.com/disk/main" target="_blank"><i class="iconfont icon-baiduyun" style="color: #148bfe;"></i>百度网盘</a></li>
             <li><a rel="nofollow" href="//ping.chinaz.com/" target="_blank"><i class="iconfont icon-pingup" style="color:#2361ad;"></i>站长Ping</a></li>
         </ul>
     </div>
