@@ -40,7 +40,7 @@ if ($q == "" || $q == null) {
     <title>搜索</title>
     <link href="style.css?t=<?php echo date("ymdhi"); ?>" rel="stylesheet">
     <!-- 我自己的CSS图标 -->
-    <link rel="stylesheet" href="font_1654770_44szr853o1l.css">
+    <link rel="stylesheet" href="font_1654770_rod4ek8x7t.css">
     <!--<link rel="stylesheet" href="//at.alicdn.com/t/font_1654770_gsrv0hc1am.css">-->
     <!-- 现已将前端重构,剔除掉了jquery,使用原生js实现响应功能,体积精简31kb -->
     <!--<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>-->
@@ -92,6 +92,7 @@ if ($q == "" || $q == null) {
             <li><a rel="nofollow" href="//www.bootcdn.cn/" target="_blank"><i class="iconfont icon-cdn" style="color: #e52;"></i>Bootcdn</a></li>
             <li><a rel="nofollow" href="//dash.cloudflare.com/" target="_blank"><i class="iconfont icon-cloudflare" style="color: #f37f20;"></i>Cloudflare</a></li>
             <li><a rel="nofollow" href="//sg.godaddy.com/" target="_blank"><i class="iconfont icon-domainyuming" style="color: #f37f20;"></i>Godaddy</a></li>
+            <li><a rel="nofollow" href="//v2ex.com/" target="_blank"><i class="iconfont icon-vex" style="color: #303030;"></i>V2ex</a></li>
             <!------>
             <li class="title"><i class="iconfont icon-tieba1"></i> 贴吧</li>
             <li><a rel="nofollow" href="//tieba.baidu.com/f?kw=wp7" target="_blank"><i class="iconfont icon-tieba1"></i>WP7吧</a></li>
