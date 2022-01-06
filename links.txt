@@ -1,0 +1,47 @@
+开发 icon-kongzhitai
+    我的博客 icon-boke-copy //retrocode.io/
+    Github icon-git //github.com/
+    码云 icon-mayun //gitee.com/ color:#f03
+    掘金 icon-juejin //juejin.im/ color:#0084ff
+    图灵社区 icon-tulingdianzika //www.ituring.com.cn/ color:#0084ff
+    Uni-App icon-uni-app //uniapp.dcloud.io/ color:green
+    ApiCloud icon-APICloud //www.apicloud.com/ color:#0084ff
+    Taro icon-React //taro.aotu.io/ color:#0084ff
+    吾爱破解 icon-theater-masks //www.52pojie.cn/ color:#f03
+    Bootcdn icon-cdn //www.bootcdn.cn/ color:#e52
+    Cloudflare icon-cloudflare //dash.cloudflare.com/ color:#f37f20
+    Godaddy icon-domainyuming //sg.godaddy.com/ color:#f37f20
+    V2ex icon-vex //v2ex.com/ color:#ffffff
+
+贴吧 icon-tieba1
+    WP7吧 icon-tieba1 //tieba.baidu.com/f?kw=wp7
+    Steam吧 icon-tieba1 //tieba.baidu.com/f?kw=steam
+
+邮箱 icon-xingzhuang
+    QQ邮箱 icon-QQyouxiang //mail.qq.com/ color:#f05
+
+社交 icon-xiaoxi
+    知乎 icon-zhihu //www.zhihu.com/ color:#0084ff
+    游民星空 icon-youminxingkong //www.gamersky.com/ color:#f03
+    龙腾网 icon-long //www.ltaaa.com/ color:#0084ff
+
+视频媒体 icon-shi-pin-xin-wen
+    Youtube icon-yout //www.youtube.com/ color:#f03
+    ACFUN icon-acfun //www.acfun.cn/ color:#f33
+    哔哩哔哩 icon-CN_bilibili //www.bilibili.com/ color:#09e
+    影视搜索 icon-yunbo /movies/ color:#0bf
+    网易云音乐 icon-wangyiyun //music.yyv.me/ color:#f03
+
+购物 icon-che
+    淘宝网 icon-taobao //www.taobao.com/ color:#ff6019
+    京东 icon-jingdong //www.jd.com/ color:#e33333
+
+设计视觉 icon-sheji
+    阿里图标 icon-print //www.iconfont.cn/ color:#ff6019
+
+工具 icon-tool
+    临时公告板 icon-zimu //cv.retrocode.io/ color:#067
+    markdown工具 icon-markdown //doocs.gitee.io/md/
+    百度翻译 icon-fanyi //fanyi.baidu.com/ color:#02f
+    百度网盘 icon-baiduyun //pan.baidu.com/disk/main/ color:#148bfe
+    站长Ping icon-pingup //ping.chinaz.com/ color:#2361ad
