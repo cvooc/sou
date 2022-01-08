@@ -1,5 +1,6 @@
 开发 icon-kongzhitai
     我的博客 icon-boke-copy //retrocode.io/
+    腾讯文档 icon-tengxunwendangqiyeban-tde-32 //docs.qq.com/ color:#2a65f5
     Github icon-git //github.com/
     码云 icon-mayun //gitee.com/ color:#f03
     掘金 icon-juejin //juejin.im/ color:#0084ff
