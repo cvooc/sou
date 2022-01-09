@@ -1,6 +1,6 @@
 开发 icon-kongzhitai
     我的博客 icon-boke-copy //retrocode.io/
-    腾讯文档 icon-tengxunwendangqiyeban-tde-32 //docs.qq.com/ color:#2a65f5
+    腾讯文档 icon-tengxunwendangqiyeban-tde-32 //docs.qq.com/desktop/ color:#2a65f5
     Github icon-git //github.com/
     码云 icon-mayun //gitee.com/ color:#f03
     掘金 icon-juejin //juejin.im/ color:#0084ff
@@ -24,7 +24,7 @@
 社交 icon-xiaoxi
     知乎 icon-zhihu //www.zhihu.com/ color:#0084ff
     游民星空 icon-youminxingkong //www.gamersky.com/ color:#f03
-    龙腾网 icon-long //www.ltaaa.com/ color:#0084ff
+    龙腾网 icon-long http://www.ltaaa.com/ color:#0084ff
 
 视频媒体 icon-shi-pin-xin-wen
     Youtube icon-yout //www.youtube.com/ color:#f03
