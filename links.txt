@@ -1,5 +1,6 @@
 开发 icon-kongzhitai
     我的博客 icon-boke-copy //retrocode.io/
+    手纸 icon-shouzhi //memos.supermario.vip/
     notion icon-notion //notion.so/
     腾讯文档 icon-tengxunwendangqiyeban-tde-32 //docs.qq.com/desktop/ color:#2a65f5
     Github icon-git //github.com/
