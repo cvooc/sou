@@ -44,8 +44,8 @@
     阿里图标 icon-print //www.iconfont.cn/ color:#ff6019
 
 工具 icon-tool
-    临时公告板 icon-zimu //cv.retrocode.io/ color:#067
-    markdown icon-markdown //doocs.gitee.io/md/
+    临时公告板 icon-zimu //foo.run/cv/ color:#067
+    markdown icon-markdown //foo.run/md/
     百度翻译 icon-fanyi //fanyi.baidu.com/ color:#02f
     百度网盘 icon-baiduyun //pan.baidu.com/disk/main/ color:#148bfe
     站长Ping icon-pingup //ping.chinaz.com/ color:#2361ad
