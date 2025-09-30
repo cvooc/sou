@@ -92,7 +92,7 @@ function echo_link($list){
         }
     </style>
     <!-- 自部署umami统计 -->
-    <script defer src="https://umami.foo.run/random-string.js" data-website-id="f177e375-91ba-4791-8420-b0dc11005dcd"></script>
+    <script defer src="https://umami.foo.run/random-string.js" data-website-id="32505191-066a-4961-bbf9-f2c197fd033b"></script>
     <!-- 百度统计 -->
     <script>
         var _hmt = _hmt || [];
