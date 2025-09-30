@@ -161,7 +161,7 @@ function echo_link($list){
                 </ul>
             </div>
         </div>
-        <div class="foot">© 1996-<?php echo date("Y"); ?> by <a href="https://github.com/ShowMeBaby">ShowMeBaby</a> . All rights reserved. <a rel="nofollow" href="https://github.com/ShowMeBaby" target="_blank" style="font-size: 12px;"><i class="iconfont icon-github"></i></a></div>
+        <div class="foot">© 1996-<?php echo date("Y"); ?> by <a href="https://github.com/cvooc">cvooc</a> . All rights reserved. <a rel="nofollow" href="https://github.com/cvooc" target="_blank" style="font-size: 12px;"><i class="iconfont icon-github"></i></a></div>
     </div>
     <!--<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;" /> -->
 </body>
