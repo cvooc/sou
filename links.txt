@@ -1,7 +1,6 @@
 开发 icon-kongzhitai
-    我的博客 icon-boke-copy //retrocode.io/
-    手纸 icon-shouzhi //memos.supermario.vip/
-    chatgpt icon-chatgpt http://chat.supermario.vip/
+    我的博客 icon-boke-copy //cvooc.com/
+    手纸 icon-shouzhi //memos.foo.run/
     notion icon-notion //notion.so/
     腾讯文档 icon-tengxunwendangqiyeban-tde-32 //docs.qq.com/desktop/ color:#2a65f5
     Github icon-git //github.com/
@@ -20,6 +19,7 @@
 贴吧 icon-tieba1
     WP7吧 icon-tieba1 //tieba.baidu.com/f?kw=wp7
     Steam吧 icon-tieba1 //tieba.baidu.com/f?kw=steam
+    开源掌机吧 icon-tieba1 //tieba.baidu.com/f?kw=开源掌机
 
 邮箱 icon-xingzhuang
     QQ邮箱 icon-QQyouxiang //mail.qq.com/ color:#f05

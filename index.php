@@ -35,7 +35,7 @@ function echo_link($list){
         }else if (substr($tmpstr, 0, 4) == "    "){
             $tmpstr = substr($tmpstr, 4, strlen($tmpstr));
             $tmplink = explode(" ",$tmpstr);
-            echo '<li><a rel="nofollow" href="'.$tmplink[2].'" target="_blank"><i class="iconfont '.$tmplink[1].'" style="'.implode("",array_slice($tmplink, 3, count($tmplink))).'"></i>'.$tmplink[0].'</a></li>';
+            echo '<li><a rel="nofollow" href="'.$tmplink[2].'" data-umami-event="侧边栏跳转" data-umami-event-name="'.$tmplink[0].'" data-umami-event-url="'.$tmplink[2].'" target="_blank"><i class="iconfont '.$tmplink[1].'" style="'.implode("",array_slice($tmplink, 3, count($tmplink))).'"></i>'.$tmplink[0].'</a></li>';
         }else if ($tmpstr!=""){
             $tmptitle = explode(" ",$tmpstr);
             echo '<li class="title"><i class="iconfont '.$tmptitle[1].'"></i>'.$tmptitle[0].'</li>';
@@ -91,6 +91,8 @@ function echo_link($list){
             background-size: cover;
         }
     </style>
+    <!-- 自部署umami统计 -->
+    <script defer src="https://umami.foo.run/random-string.js" data-website-id="f177e375-91ba-4791-8420-b0dc11005dcd"></script>
     <!-- 百度统计 -->
     <script>
         var _hmt = _hmt || [];
