@@ -14,7 +14,7 @@
     Cloudflare icon-cloudflare //dash.cloudflare.com/ color:#f37f20
     Godaddy icon-domainyuming //sg.godaddy.com/ color:#f37f20
     V2ex icon-vex //v2ex.com/ color:#ffffff
-    LinuxDo icon-linuxdo //v2ex.com/ color:#ffffff
+    LinuxDo icon-linuxdo //linux.do/ color:#ffffff
 
 贴吧 icon-tieba1
     WP7吧 icon-tieba1 //tieba.baidu.com/f?kw=wp7

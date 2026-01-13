@@ -111,18 +111,7 @@ function echo_link($list){
         <ul><?php echo_link(get_file("links.txt")); ?></ul>
     </div>
     <div class="mywth">
-        <div class="wea_hover">
-            <div class="wea_in wea_top"></div>
-            <div class="wea_in wea_con">
-                <ul></ul>
-            </div>
-            <div class="wea_in wea_foot">
-                <ul></ul>
-            </div>
-        </div>
-        <!--天气插件，基于www.tianqiapi.com 天气接口制作-->
         <div class="time_text">
-            <div class="mywth_text"></div>
             <div id="date">
                 <div class="parts" id="date_div"></div>
                 <div class="mask" id="year">
